@@ -47,11 +47,30 @@ background-position: center;
 
 background-size: cover;
 height: 600px;
- /* width: 100%; */
+ width: 100%;
+ 
  
 }
-.banner-container{
+.banner-container h1, p{
     text-align: center;
  align-items: center;
  color: white;
+ /* padding: ; */
+ 
+}
+.banner-container h1{
+    font-size: 72px;
+    font-weight: 700;
+    padding-top: 80px;
+
+}
+.banner-container p{
+   
+   
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 17px;
 }
