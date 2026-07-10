@@ -89,8 +89,6 @@ nav img {
 .common-btn1 {
     display: flex;
     justify-content: center;
-
-    /* align-items: center; */
     padding-top: 250px;
 }
 
@@ -98,17 +96,35 @@ nav img {
     text-align: center;
     font-weight: bold;
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 40px;
     margin: 30px;
 }
 
 .speakers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    /* gap: 15px; */
-    
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 20px;
+    padding: 2px 50px;
 }
-.speakers div{
-    /* border: 20px saddlebrown; */
+
+.speakers-hero {
+    border: 2px solid #e4e7ed;
+    border-radius: 8px;
+    background: white;
+}
+
+.speakers-hero img {
+    width: 100%;
+    display: block;
+    height: 300px;
+}
+
+.speakers-hero-info {
+    padding: 5px 7px 8px;
+}
+.sector{
+    font-size: smaller;
+    color: #3562df;
+    font-weight: 400px;
 }
