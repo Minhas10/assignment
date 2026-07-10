@@ -85,11 +85,13 @@ nav img {
 
 
 }
+
 .common-btn1 {
     display: flex;
     justify-content: center;
     padding-top: 250px;
 }
+
 /* Speakers */
 .speakers-container h2 {
     text-align: center;
@@ -98,26 +100,31 @@ nav img {
     font-size: 40px;
     margin: 30px;
 }
+
 .speakers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 10px 80px;
 }
+
 .speakers-hero {
     border: 2px solid #e4e7ed;
     border-radius: 8px;
     background: white;
     overflow: hidden;
 }
+
 .speakers-hero img {
     width: 100%;
     display: block;
     height: 300px;
 }
+
 .speakers-hero-info {
     padding: 10px 15px 8px;
 }
+
 .sector {
     font-size: 13px;
     color: #3562df;
@@ -134,4 +141,142 @@ nav img {
     color: #696a6b;
     padding: 8px 0 8px 0;
 }
+
 /* plan section start */
+.plan-container {
+    /* text-align: center; */
+    margin-top: 50px;
+
+}
+
+.plan-container h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pricing {
+    font-size: 12px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.plan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-areas: none; */
+    gap: 0px;
+    /* margin: ; */
+    padding: 20px 40px 40px 40px;
+}
+
+/* standard start */
+.standard {
+    border: 1px solid rgb(220, 220, 232);
+    padding: 20px 20px 20px 30px;
+    width: 70%;
+    height: 90%;
+    border-radius: 12px;
+}
+
+.standard-p1 {
+    color: #828384;
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+
+.standard-p2 {
+    color: #828384;
+    padding: 2px 0 12px 0;
+    font-size: 15px;
+}
+
+.standard h3,
+.team h3 {
+    font-size: 35px;
+}
+
+/* pro start */
+.pro {
+    padding: 20px 8px 20px 30px;
+    width: 70%;
+    height: 90%;
+    border-radius: 12px;
+    background-color: #0D1B2A;
+}
+
+.pro ul li {
+    color: #dddadae4
+}
+
+.pro h3 {
+    color: white;
+    font-size: 35px;
+}
+
+.pro2 {
+    color: #919395;
+    padding-bottom: 15px;
+    padding-top: 3px;
+}
+
+.pro1 {
+    color: #85a0ec;
+}
+.pro-btn{
+    background-color: #3b6aea;
+     padding: 10px 90px 10px 90px;
+    margin-left: 7px;
+    /* gap: 400px; */
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1.45px solid rgb(75, 112, 231);
+    color: white;
+}
+
+/* team start*/
+.team {
+    border: 1px solid rgb(212, 212, 221);
+    padding: 20px 10px 20px 30px;
+    width: 70%;
+    height: 90%;
+    border-radius: 12px;
+}
+
+.team-p1 {
+    color: #828384;
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+
+.team-p2 {
+    color: #828384;
+    padding: 2px 0 12px 0;
+    font-size: 15px;
+}
+
+.plan ul {
+    padding: 11px;
+    /* color: aqua; */
+}
+
+.plan ul li {
+    padding-bottom: 9px;
+
+}
+
+.plan-btn {
+    /* text-align: center; */
+    padding: 10px 90px 10px 90px;
+    margin-left: 7px;
+    /* gap: 400px; */
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1.45px solid rgb(75, 112, 231);
+    background-color: white;
+    color: rgb(75, 112, 231);
+}
+
+
