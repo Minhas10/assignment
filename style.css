@@ -26,8 +26,6 @@ ul li a {
 
 nav img {
     max-height: min-content;
-
-
 }
 
 .common-btn {
@@ -46,12 +44,9 @@ nav img {
 .banner {
     background-image: linear-gradient(rgba(0.9, 0, 1.2, 0), rgba(0, 0, 0, 0.7)), url("./assets/banner.jpg");
     background-position: center;
-
     background-size: cover;
     height: 600px;
     max-width: 1500px;
-    /* display: flex;
-    justify-content: space-between; */
 }
 
 .banner-container h1 {
@@ -60,24 +55,17 @@ nav img {
     padding-top: 80px;
     display: flex;
     justify-content: center;
-
     text-align: center;
     color: white;
-
 }
 
 .banner-container p {
-    /* align-content: center; */
-
     padding-right: 350px;
     padding-left: 350px;
     padding-top: 10px;
 
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-
-    /* max-width: 200px; */
     font-size: 17px;
     text-align: center;
     align-items: center;
@@ -143,10 +131,9 @@ nav img {
 }
 
 /* plan section start */
-.plan-container {
-    /* text-align: center; */
-    margin-top: 50px;
 
+.plan-container {
+    margin-top: 50px;
 }
 
 .plan-container h2 {
@@ -164,29 +151,37 @@ nav img {
 .plan {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-areas: none; */
-    gap: 0px;
-    /* margin: ; */
+    gap: 20px;
     padding: 20px 40px 40px 40px;
+}
+
+.plan ul li {
+    padding-bottom: 9px;
+}
+
+.plan ul {
+    padding: 11px;
 }
 
 /* standard start */
 .standard {
     border: 1px solid rgb(220, 220, 232);
     padding: 20px 20px 20px 30px;
-    width: 70%;
-    height: 90%;
     border-radius: 12px;
 }
 
+.standard ul li {
+    color: #333333;
+}
+
 .standard-p1 {
-    color: #828384;
+    color: #888888;
     padding-bottom: 3px;
     font-size: 15px;
 }
 
 .standard-p2 {
-    color: #828384;
+    color: #888888;
     padding: 2px 0 12px 0;
     font-size: 15px;
 }
@@ -196,17 +191,26 @@ nav img {
     font-size: 35px;
 }
 
+.standard-btn {
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1.45px solid #2563EB;
+    background-color: white;
+    color: #2563EB;
+}
+
 /* pro start */
 .pro {
-    padding: 20px 8px 20px 30px;
-    width: 70%;
-    height: 90%;
+    padding: 20px 20px 20px 30px;
     border-radius: 12px;
     background-color: #0D1B2A;
 }
 
 .pro ul li {
-    color: #dddadae4
+    color: #dddadae4;
 }
 
 .pro h3 {
@@ -223,60 +227,48 @@ nav img {
 .pro1 {
     color: #85a0ec;
 }
-.pro-btn{
-    background-color: #3b6aea;
-     padding: 10px 90px 10px 90px;
-    margin-left: 7px;
-    /* gap: 400px; */
+
+.pro-btn {
+    background-color: #2563EB;
+    padding: 12px;
+    width: 100%;
     border-radius: 8px;
     font-size: 14px;
     font-weight: 600;
-    border: 1.45px solid rgb(75, 112, 231);
-    color: white;
+    border: 1.45px solid #2563EB;
+    color: #FFFFFF;
 }
 
 /* team start*/
 .team {
     border: 1px solid rgb(212, 212, 221);
-    padding: 20px 10px 20px 30px;
-    width: 70%;
-    height: 90%;
+    padding: 20px 20px 20px 30px;
     border-radius: 12px;
 }
 
 .team-p1 {
-    color: #828384;
+    color: #888888;
     padding-bottom: 3px;
     font-size: 15px;
 }
 
 .team-p2 {
-    color: #828384;
+    color: #888888;
     padding: 2px 0 12px 0;
     font-size: 15px;
 }
 
-.plan ul {
-    padding: 11px;
-    /* color: aqua; */
+.team ul li {
+    color: #333333
 }
 
-.plan ul li {
-    padding-bottom: 9px;
-
-}
-
-.plan-btn {
-    /* text-align: center; */
-    padding: 10px 90px 10px 90px;
-    margin-left: 7px;
-    /* gap: 400px; */
+.team-btn {
+    padding: 12px;
+    width: 100%;
     border-radius: 8px;
     font-size: 14px;
     font-weight: 600;
-    border: 1.45px solid rgb(75, 112, 231);
+    border: 1.45px solid #0D1B2A;
     background-color: white;
-    color: rgb(75, 112, 231);
+    color: #0D1B2A;
 }
-
-
