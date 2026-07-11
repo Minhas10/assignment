@@ -35,5 +35,5 @@ Important:
 Use ONLY HTML and CSS.
 Write clean, semantic HTML.
 Keep the code beginner-friendly but professionally structured.
-Write clean, semantic HTML using elements such as <section>, <article>, <header>, <img>, and <button>.
+Write clean, semantic HTML using elements such as section, article, header, img and button.
 Include comments separating the HTML and CSS sections
