@@ -467,6 +467,18 @@ nav img {
     padding: 8px;
 }
 
+.logo-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icon {
+    display: flex;
+    gap: 5px;
+    padding-right: 10px;
+}
+
 .below-section {
     display: flex;
     align-items: center;
@@ -474,6 +486,8 @@ nav img {
     color: #929090;
 }
 
-.solid {
-    border: 1px solid rgb(104, 101, 101);
+.terms a,
+.privacy a {
+    text-decoration: none;
+    color: #929090;
 }
