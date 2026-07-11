@@ -432,7 +432,7 @@ nav img {
 }
 
 .glow-header::before {
-    content: "";
+    /* content: ""; */
     position: absolute;
 
     width: 320px;
@@ -450,4 +450,34 @@ nav img {
     filter: blur(35px);
     z-index: -1;
     pointer-events: none;
+}
+
+/* footer section */
+.footer-section{
+    background-color: #0D1B2A;
+}
+.footer-img{
+    padding:10px ;
+    opacity: 40%;
+    
+}
+.copyright{
+    padding: 8px;
+    color: #929090;
+    }
+.below-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.terms{
+   padding: 8px;
+    color: #929090; 
+    display: flex;
+    justify-content: space-around;
+    /* text-align: left; */
+    /* margin-left: 120px; */
+
+}
+.solid{
+  border: 0.1px solid rgb(49, 48, 48) ;
 }
